@@ -1,0 +1,202 @@
+/* Codigos media query */
+@media only screen and (min-width: 768px) {
+  section {
+    background-color: #276e97be;
+    padding-bottom: 0.3vh;
+    padding-right: 0.7vw;
+    padding-left: 0.7vw; }
+    section h2 {
+      font-style: italic;
+      font-size: 3vh;
+      color: black; }
+  .img-puntoventa {
+    width: 30vw;
+    height: 70vh; }
+  .div-img-puntoventa {
+    display: flex;
+    justify-content: center; }
+  section p {
+    color: black;
+    font-size: 1.8vh; }
+    section p a {
+      font-weight: bold;
+      color: black; }
+  .mapa-contacto {
+    height: 60vh;
+    width: 80%; }
+  .card {
+    height: 70vh; }
+  .titulo-productos {
+    margin-left: 2vh; } }
+
+@media only screen and (min-width: 320px) {
+  section {
+    background-color: #276e97be;
+    padding-bottom: 0.3vh;
+    padding-right: 0.7vw;
+    padding-left: 0.7vw; }
+    section h2 {
+      font-style: italic;
+      font-size: 3vh;
+      color: black; }
+  .img-puntoventa {
+    width: 80vw;
+    height: 50vh; }
+  .div-img-puntoventa {
+    display: flex;
+    justify-content: center; }
+  section p {
+    color: black;
+    font-size: 1.8vh; }
+    section p a {
+      font-weight: bold;
+      color: black; }
+  .mapa-contacto {
+    height: 50vh;
+    width: 100%;
+    padding-top: 5vh; }
+  .card {
+    height: 100vh; } }
+
+@media only screen and (min-width: 1024px) {
+  section {
+    background-color: #276e97be;
+    padding-bottom: 0.3vh; }
+    section h2 {
+      font-style: italic;
+      font-size: 3vh;
+      color: black; }
+  section p {
+    color: black;
+    font-size: 2vh; }
+    section p a {
+      font-weight: bold;
+      color: black; }
+  .img-puntoventa {
+    width: 40vw;
+    height: 50vh; }
+  .card {
+    height: 90vh; }
+  .titulo-productos {
+    margin-left: 2vh; } }
+
+/* Fin codigos media query */
+/* Codigos generales */
+header {
+  background-color: white !important; }
+
+body {
+  background-image: url(../images/12.jpg) !important;
+  font-family: Roboto Slab !important; }
+
+footer {
+  padding-top: 1.2vh; }
+
+.div-footer {
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  background-color: #696969a2; }
+
+.link-redes {
+  text-decoration: none;
+  color: black; }
+
+.animate__fadeInDown {
+  animation-duration: 1s; }
+
+.animate__backInRight {
+  animation-duration: 1.5s; }
+
+.animate__zoomIn {
+  animation-duration: 1.5s; }
+
+/* Fin Codigos generales */
+/*Codigo para carousel inicio */
+.titulo-inicio {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  color: #193f92; }
+
+.img-carousel {
+  height: 70vh;
+  width: 100%; }
+
+.carousel-maestro {
+  height: 70vh;
+  max-width: 100%;
+  justify-self: center;
+  margin-bottom: 2vh; }
+
+/* Fin codigo carousel */
+/* Code para productos */
+.titulo-productos {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  color: #193f92; }
+
+.prod-div__img {
+  width: 100% !important;
+  height: 100%  !important;
+  object-fit: contain; }
+
+.div-img {
+  max-width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/*Code para nosotros */
+.img-nosotros {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  max-width: 100%; }
+
+.div-img-nosotros {
+  display: flex;
+  justify-content: center; }
+
+.titulo-nos {
+  padding-top: 2vh;
+  color: #193f92; }
+
+.titulo-nos-sec {
+  color: #093083; }
+
+/* Code para puntos-venta*/
+.div-img-puntoventa {
+  display: flex;
+  justify-content: center; }
+
+.titulo-pv {
+  padding-top: 2vh;
+  color: #193f92; }
+
+.titulo-pv-sec {
+  color: #093083; }
+
+/* Code para Contacto */
+.div-map {
+  margin-left: 3vw;
+  display: block;
+  justify-content: center; }
+
+.columna {
+  max-width: 95% !important;
+  padding: 1vw; }
+
+.titulo-contacto {
+  padding: 1vw;
+  color: #193f92; }
+
+.div-form {
+  display: block; }
+
+.form-contacto {
+  width: 100% !important; }
+
+.form-group {
+  width: 100% !important; }
